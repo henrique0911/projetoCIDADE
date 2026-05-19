@@ -154,6 +154,9 @@ header nav ul li a:hover {
         position:absolute;
         top:80px;
         left:0;
+        margin-left:20%;
+        border-radius:40px;
+        width:70%;
         background:var(--color2);
         flex-direction:column;
         padding:20px 0;
@@ -164,5 +167,9 @@ header nav ul li a:hover {
     nav ul{
         flex-direction:column;
         text-align:center;
+       
     }
+    .open span:nth-child(1){transform:rotate(45deg)translate(5px,5px);}
+    .open span:nth-child(2){opacity:0}
+    .open span:nth-child(3){transform:rotate(-45deg)translate(7px,-7px);}
 }
