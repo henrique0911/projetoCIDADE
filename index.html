@@ -3,40 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- CSS -->
+
     <link rel="stylesheet" href="src/css/estilo.css">
 
     <title>Projeto | Home</title>
 </head>
 <body>
-    <div id="inicio">
-        <h1 id="titulo">Bem-Vindo ao Site</h1>
-        <p id="frase">Com Grandes Códigos vem grandes Bugs</p>
-        <img src="./src/assets/logo.gif" alt="imagem" id="imgHero">
-    </div>
+
+<div id="inicio">
+    <h1 id="titulo">Bem-Vindo ao Site</h1>
+    <p id="frase">Com Grandes Códigos vem grandes Bugs</p>
+    <img src="./src/assets/logo.gif" alt="imagem" id="imgHero">
+</div>
+
 <header>
     <img src="./src/assets/logo.gif" alt="logo" id="logo">
 
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="src/pages/contato.html">Contato</a></li>
-        <li><a href="src/pages/sobre.html">Sobre</a></li>
-    </ul>
-</nav>
-    <div>
-        <input type="button" class="cor" onclick="trocar('#3AE4B1')">
-        <input type="button" class="cor" onclick="trocar('#C13AF2')">
-        <input type="button" class="cor" onclick="trocar('#FBFF24')">
+    <!-- menu hamburguer -->
+    <div class="menu-hamburguer" id="menu-icone">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="src/pages/contato.html">Contato</a></li>
+            <li><a href="src/pages/sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
 </header>
+
 <main>
-
-
     <p id="texto">Produtos em Destaque</p>
 </main>
+
 <script src="src/js/script.js"></script>
 </body>
 </html>
